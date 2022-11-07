@@ -1,0 +1,45 @@
+type: Reconstructor
+name: Direct T5
+size: 9
+constructTime: 22200
+liquidCapacity: 240
+itemCapacity: 4040
+consumes: {
+  power: 47
+    items: {
+      items: [
+      silicon/2020
+      titanium/830
+      metaglass/40
+      graphite/40
+      plastanium/1250
+      phase-fabric/350
+      surge-alloy/500
+      ]
+    }
+  liquid: {
+    liquid: cryofluid
+    amount: 2.6
+  }
+}
+upgrades: [
+  [dagger,reign]
+  [crawler,toxopid]
+  [nova,corvus]
+  [flare,eclipse]
+  [mono,oct]
+  [risso,omura]
+  [retusa,navanax]
+]
+requirements: [
+  copper/200
+  lead/6770
+  titanium/2350
+  thorium/2400
+  silicon/4540
+  plastanium/1050
+  phase-fabric/1200
+  surge-alloy/800
+]
+category: units
+research: tetrative-reconstructor

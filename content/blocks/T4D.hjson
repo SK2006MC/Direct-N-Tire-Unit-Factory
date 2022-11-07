@@ -1,0 +1,43 @@
+type: Reconstructor
+name: Direct T4
+health: 4595
+size: 7
+itemCapacity: 2040
+constructTime: 7800
+liquidCapacity: 60
+consumes: {
+  power: 22
+    items: {
+      items: [
+      silicon/1020
+      titanium/830
+      metaglass/40
+      graphite/40
+      plastanium/650
+      ]
+    }
+liquid: {
+    liquid: cryofluid
+    amount: 0.7
+  }
+}
+upgrades: [
+  [dagger,scepter]
+  [crawler,arkyid]
+  [nova,vela]
+  [flare,antumbra]
+  [mono,quad]
+  [risso,sei]
+  [retusa,aegires]
+]
+requirements: [
+  copper/200
+  lead/2770
+  titanium/2350
+  thorium/1400
+  silicon/1540
+  plastanium/450
+  phase-fabric/600
+]
+category: units
+research: exponential-reconstructor
